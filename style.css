@@ -1,0 +1,898 @@
+@font-face {
+    font-family: 'Reforma';
+    src: url('/fonts/ReformaGroteskMediumC.ttf');
+}
+
+@font-face {
+    font-family: 'ReformaB';
+    src: url('/fonts/ReformaGroteskBoldC.ttf');
+}
+
+@font-face {
+    font-family: 'ReformaC';
+    src: url('/fonts/ReformaGroteskDemiC.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 1000px;
+    background-image:url(Rectangle.png);
+    background-repeat: no-repeat;
+  
+}
+.tx{
+    color: white;
+    text-decoration: none;
+    font-family: 'Reforma';
+    font-size: 30px;
+ 
+}
+.nav-1{
+    width: 50%;
+    height: 50px;
+    justify-content:right;
+    align-items: end;
+    display: flex;
+    gap: 40px;
+}
+.nav-dop{
+    width: 87%;
+    display: flex;
+    justify-content: right;
+    margin-top: -25px;
+}
+h1{
+    color: rgba(219, 49, 56, 1);
+    font-size: 100px;
+    font-family: 'ReformaB';   
+    height: 200px;
+ display: flex;
+ align-items: end;
+ justify-content: center;
+}
+.lor1{
+    color: white;
+    font-family: 'Reforma';
+    font-size: 30px;
+    width: 340px;
+}
+.lorcl{
+      display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100px;
+    text-align:center;
+}
+.img2{
+display: flex;
+justify-content: center;
+height: 30px;
+align-items: end;
+}
+.wrapper{
+    height: 50px;
+    display: flex;
+    align-items: end;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.wi{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: 'Reforma';
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .wi span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .wi:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(219, 49, 56, 1);
+    transition: all .35s;
+  }
+  .wi:hover:after{
+    width: 70%;
+  }
+  .tableee{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    border: 1px white solid;
+    border-left: none;
+    border-right: none;
+}
+.tdshka{
+    border-right: 2px white solid;
+    width: 640px; 
+}
+.white{
+color: white;
+font-family: 'ReformaC';
+font-size: 18px;
+letter-spacing: 0.9px;
+text-transform: uppercase;
+margin-top: -30px ;
+}
+.red{
+    width: 350px;
+    height: 50px;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 30px;
+}
+.red1{
+    width: 350px;
+    height: 50px;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.white1{
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    margin-top: 10px ;
+}
+.tablica{
+    display: flex;
+    align-items: end;
+    height: 620px;
+}
+.sec-1{
+    background-color:#141414;
+    width: 100%;
+    height: 1000px;
+}
+h2{
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 50px;
+    width: 500px;
+}
+.lor2{
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 30px;
+    width: 650px;
+}
+.haha{
+    height: 200px;
+    display: flex;
+    align-items: end;
+}
+.gro{
+    display: flex;
+    align-items: end;
+    height: 60px;
+}
+.blok{
+    margin-left: 200px;
+    /* margin-top: 100px; */
+}
+.tableee{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    border: 1px white solid;
+    border-left: none;
+    border-right: none;
+}
+
+.tdshka{
+    border-right: 2px white solid;
+    width: 640px; 
+}
+
+.white{
+color: white;
+font-family: 'ReformaC';
+font-size: 18px;
+letter-spacing: 0.9px;
+text-transform: uppercase;
+margin-top: -30px ;
+}
+.red{
+    width: 350px;
+    height: 50px;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 30px;
+}
+.red1{
+    width: 350px;
+    height: 50px;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 10px;
+}
+.l{
+    height: 600px;
+     display: flex;
+    align-items: end; 
+}
+.sec{
+    background-color: black;
+}
+.secondBlock{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    display: flex;
+}
+
+.divvdive{
+    width: 1296px;
+    height: 745px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+.div1{
+    width: 648px;
+    height: 745px;
+}
+
+.div2{
+    width: 648px;
+    height: 745px;
+    display: flex;
+}
+
+.achievments{
+    font-size: 52px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'ReformaC';
+}
+
+.tableee{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    border: 1px white solid;
+    border-left: none;
+    border-right: none;
+}
+
+.tdshka{
+    border-right: 2px white solid;
+    width: 640px; 
+}
+
+.white{
+color: white;
+font-family: 'ReformaC';
+font-size: 18px;
+letter-spacing: 0.9px;
+text-transform: uppercase;
+margin-top: -30px ;
+}
+
+.red{
+    width: 350px;
+    height: 50px;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.red1{
+    width: 350px;
+    height: 50px;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.white1{
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    margin-top: 10px ;
+}
+
+.itnotdots1{
+    margin-top: 40px;
+    width: 146px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textttt{
+    width: 526px;
+    height: 116px;
+    color: white;
+    margin-top: 40px;
+    font-family: 'Reforma';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.72px;
+}
+
+.table11{
+height: 708px;
+width: 318px;
+text-align: center;
+}
+
+.td1{
+    border: 1px white solid;
+    height: 177px;
+}
+
+.table12{
+    height: 708px;
+    width: 318px;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    right: 5px;
+}
+
+.red12{
+    color: #DB3138;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    line-height: 140%;
+    font-family: 'ReformaC';
+}
+
+.white12{
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0.8px;
+text-transform: uppercase;
+}
+.div2{
+    margin-left: 970px;
+    margin-top: -300px;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    background-color:#141414;
+}
+.slider{
+    width: 1050px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    align-items: end;
+    overflow: hidden;
+}
+.slider-line{   
+    height: 500px;
+    width: 2496px;
+    position: relative;
+    display: flex;
+    left: 0;
+    transition: all ease 1s;
+}
+.but{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin: 0 auto ; 
+}
+.imgslid{
+    width: 350px;
+    height: 350px;
+}
+.cerni{
+    width: 100%;
+    height: 400px;
+    background-color: #141414;
+}
+.best{
+    margin-left: 200px;
+    margin-top:400px;
+}
+.lor4{
+    font-size: 24px;
+    font-family:'Reforma';
+    color: white;
+    letter-spacing: 0.72px;
+    width: 526px;
+    margin-top: 50px;
+}
+.gg{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.best{
+    width: 500px;
+}
+.slid{
+    display: flex;
+    justify-content: end;
+    width: 1600px;
+    margin-top: -610px;
+}
+.ii{
+    background-color:rgba(20, 20, 20, 1); 
+    border: solid 3px rgba(219, 49, 56, 1);
+    transform: rotate(-45deg);  
+      width: 50px;
+height: 50px;
+}
+.bbt{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 600px;
+}
+.n{
+ position: absolute;
+}
+.ll{
+    transform: rotate(45deg);  
+}
+.ll2{
+    transform: rotate(45deg);  
+}
+.lor5{
+    width: 322px;
+    color:white;
+    font-family: 'ReformaC';
+    font-size: 18px;
+    text-align: center;
+}
+.black{
+    width: 100%;
+    height: 1200px;
+    background-color: #141414;
+}
+.lol{
+    display: flex;
+    justify-content: center;
+}
+.h8{
+    letter-spacing: 2.6px;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 52px;
+}
+.bm{
+    width: 300px;
+}
+.cl{
+    margin-left: 55px;
+    margin-top: 50px;
+}
+.bbt2{
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.cherni3{
+    width: 100%;
+    height: 1200px;
+    background-color: #141414;
+    margin-top:-400px;
+}
+.man{
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 20px;
+}
+.cherni4{
+    width: 100%;
+    height: 1200px;
+    background-color: #141414;
+}
+.ocl{
+    width: 181px;
+    height: 75px;
+    border: none;
+    background-color: #DB3138;
+    color: white;
+}
+.ocl2{
+    border: none;
+    background-color: #141414;
+    color: white;
+}
+.pw{
+    font-family: 'ReformaC';
+    font-size: 32px;
+}
+.ks{
+    width: 306px;
+height: 428px;
+    border: solid 1px white;
+}
+.lorem3{
+    width: 226px;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 16px;
+    text-align: center;
+}
+.buttt{
+    width: 58px;
+    height: 41px;
+    border: none;
+    background-color: #DB3138;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 70px; 
+}
+.podr{
+    font-family: 'ReformaC';
+    font-size: 18px;
+}
+.pl{
+    color: white;
+    font-family: 'ReformaC';
+    text-align: center;
+}
+.io{ 
+    margin-top: -400px;
+   margin-left: 70px;
+}
+.io2{
+    margin-top: -400px;
+    margin-left: 100px;
+ }
+ .io3{
+    margin-top: -400px;
+    margin-left: 100px;
+ }
+ .io4{
+    margin-top: -400px;
+    margin-left: 80px;
+ }
+ .ysl{
+    margin-top: -400px;
+    display: flex;
+    justify-content: center;
+   margin-top: 100px;
+ }
+ .o{
+    margin-left: 20px;
+    margin-top: 30px
+ }
+ .popa{
+    margin-top: -90px;
+    margin-left: 30px;
+ }
+ .pisa{
+    margin-top: 30px;
+    margin-left: 30px;
+ }
+ .zalupa{
+    margin-top: 10px;
+    margin-left: 50px;
+ }
+ .o2{
+    margin-left: 20px;
+    margin-top: 30px
+ }
+ .popa2{
+    margin-top: -90px;
+    margin-left: 40px;
+ }
+ .pis2{
+    margin-top: 30px;
+    margin-left: 80px;
+ }
+ .zalupa2{
+    margin-top: 10px;
+    margin-left: 50px;
+ }
+ .hu{
+    margin-left: 50px;
+ }
+ .o3{
+    margin-left: 10px;
+    margin-top: 30px
+ }
+ .popa3{
+    margin-top: -90px;
+    margin-left: 20px;
+ }
+ .pis3{
+    margin-top: 30px;
+    margin-left: 80px;
+ }
+ .zalupa3{
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+ .hu1{
+    margin-left: 50px;
+ }
+ .o4{
+    margin-left: 10px;
+    margin-top: 30px
+ }
+ .popa4{
+    margin-top: -90px;
+    margin-left: 20px;
+ }
+ .pis4{
+    margin-top: 30px;
+    margin-left: 80px;
+ }
+ .zalupa4{
+    margin-top: 10px;
+    margin-left: 20px;
+ }
+ .hu2{
+    margin-left: 30px;
+    margin-top: 30px;
+ }
+ .header4{
+    width: 100%;
+    height: 1200px;
+    background-color: #141414;
+    position: absolute;
+ }
+ .doc{
+    margin-top: -200px;
+    margin-right: 700px;
+ }
+ .slid2{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+ }
+ .jojo{
+    margin-left: 1000px;
+    margin-top: -650px;
+ }
+ .gg44{
+   margin-left: 170px;
+   margin-top: 50px;
+ }
+ .plop{
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 25px;
+    text-align: center;
+ }
+ .cherni5{
+    width: 100%;
+    height: 1200px;
+    background-color: #141414;
+ }
+ .kok{
+    width: 100%;
+    height: 950px;
+    background-color: #141414;
+ }
+ .pizda{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 700px;
+ }
+ .grop{
+    color: white;
+    font-family:'Reforma';
+    font-size: 52px;
+ }
+ .nou{
+    width: 200px;
+ }
+ .luk{
+    margin-left: 15px;
+    margin-top: 20px;
+ }
+ .kop{
+    margin-top: 50px;
+    position: relative;
+ }
+ .jus{
+    width: 100%;
+ }
+ .end{
+    width: 100%;
+    height: 1200px;
+    background-color: #141414;
+    position: absolute;
+ }
+ .nig{
+    color: white;
+    text-align: center;
+    font-size: 52px;
+    font-family: 'ReformaC';
+    letter-spacing: 2.6px;
+ }
+ .toh{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+ }
+ .mo{
+    margin-top: 50px;
+ }
+ .name{
+    border:solid 3px #DB3138;
+    background-color: #141414;
+    color: white;
+    width: 306px;
+height: 47px;
+ }
+ .numb{
+    border: solid 3px #898989;
+    background-color: #141414;
+    width: 306px;
+height: 47px;
+ }
+ .jj{
+    font-family: 'ReformaC';
+font-size:20px;
+ }
+ .place{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+ }
+ .dis{
+    border: solid 3px #898989;
+    background-color: #141414;
+    width: 526px;
+height: 300px;
+margin-top: 50px;
+margin-left: 590px;
+ }
+ .im{
+    width: 70px;
+    height: 70px;
+ 
+ }
+.cal{
+    display: flex;
+    flex-direction:column;  
+     gap: 20px;
+     margin-left: 1200px;
+     margin-top: -300px;
+}
+.pop{
+    font-family: 'ReformaC';
+    font-size: 24px;
+    width: 150px;
+    margin-left: 30px;
+}
+.gog{
+    margin-right:530px ;
+    margin-top: 100px;
+}
+.com{
+    width: 600px;
+    margin-left: 1000px;
+    margin-top: -60px;
+}
+.ji{
+    margin-left: 20px;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: #898989;
+    margin-top: 300px;
+}
+.huina{
+    color: #898989;
+    font-size: 20px;
+    font-family: 'ReformaC';
+}
+.sano{
+    font-size: 24px;
+    color: white;
+    font-family: 'ReformaC';
+    text-decoration: none;
+}
+.zaeb{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.kk{
+   
+    display: flex;
+  justify-content: center;
+}
+.pipa{ 
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.wafel{
+    margin-left: 50px;
+    margin-top: -30px;
+    font-size: 24px;
+    color: white;
+    font-family: 'ReformaC';
+}
+.wafel2{
+    font-size: 24px;
+    color: white;
+    font-family: 'ReformaC';
+    margin-left: 30px;
+    margin-top: -30px;
+}
+.wafel3{
+    font-size: 24px;
+    color: white;
+    font-family: 'ReformaC';
+    margin-left: 70px;
+    margin-top: -30px;
+}
+.mm2{
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-top: -20px;
+}
